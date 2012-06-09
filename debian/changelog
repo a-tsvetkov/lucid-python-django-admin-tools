@@ -1,0 +1,36 @@
+python-django-admin-tools (0.4.1) stable; urgency=low
+
+  * Static files and django 1.3 support
+  * Fixed modules instanciation issues (fixes #65)
+  * Nested groups support & better html id generation (fixes issue #70)
+  * Fixed various js and css problems
+  * Added translation for Finnish + updates on other languages
+  * More robust dashboard layout
+  * Added force_show_title property to Group module
+
+ -- Alexander Tsvetkov <sickuenser@eastwood-lab.ru>  Sat, 09 Jun 2012 16:07:20 +0400
+
+python-django-admin-tools (0.4.0) stable; urgency=low
+
+  * big improvements of the API (see the dashboard and menu documentation for
+    details), the old API is still supported but now deprecated;
+  * added a ModelList menu item;
+  * custom and multiple admin sites basic support;
+  * better integration with django-grappelli;
+  * django south support.
+
+ -- Alexander Tsvetkov <sickuenser@eastwood-lab.ru>  Sat, 09 Jun 2012 16:07:20 +0400
+
+python-django-admin-tools (0.3.0) stable; urgency=low
+
+  * added tests infrastructure, code coverage is around 70%;
+  * import paths and class names are changed. Old class names and paths are
+    deprecated but still work;
+  * ``dashboard.modules.AppList``, ``dashboard.modules.ModelList`` and
+    ``menu.items.AppList`` now have ability to display any models from different
+    apps (using glob syntax) via ``models`` and ``exclude`` parameters.
+    The order is now preserved. See #15;
+  * implemented dashboard module groups : you can now group modules in tabs,
+    accordion or in a stacked layout.
+
+ -- Alexander Tsvetkov <sickuenser@eastwood-lab.ru>  Sat, 09 Jun 2012 16:07:20 +0400

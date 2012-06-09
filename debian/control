@@ -1,0 +1,25 @@
+Source: python-django-admin-tools
+Section: python
+Priority: extra
+Maintainer: Alexander Tsvetkov <sickuenser@eastwood-lab.com>
+Uploaders: Alexander Tsvetkov <sickuenser@eastwood-lab.com>
+Build-Depends:
+  cdbs,
+  debhelper (>= 7),
+  python-support,
+  python,
+  python-all-dev (>= 2.5),
+  python-setuptools
+Standards-Version: 3.8.4
+
+Package: python-django-admin-tools
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-django
+Description: django-admin-tools is a collection of extensions/tools for the default django administration interface.
+ django-admin-tools is a collection of extensions/tools for the default django
+ administration interface, it includes:
+  * a full featured and customizable dashboard,
+  * a customizable menu bar,
+  * tools to make admin theming easier.
+ The project code and bugtracker is hosted on
+ Bitbucket <http://bitbucket.org/izi/django-admin-tools/>
