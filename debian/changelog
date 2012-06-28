@@ -1,4 +1,4 @@
-python-django-admin-tools (0.4.1) stable; urgency=low
+python-django-admin-tools (0.4.1) unstable; urgency=low
 
   * Static files and django 1.3 support
   * Fixed modules instanciation issues (fixes #65)
@@ -10,7 +10,7 @@ python-django-admin-tools (0.4.1) stable; urgency=low
 
  -- Alexander Tsvetkov <sickuenser@eastwood-lab.ru>  Sat, 09 Jun 2012 16:07:20 +0400
 
-python-django-admin-tools (0.4.0) stable; urgency=low
+python-django-admin-tools (0.4.0) unstable; urgency=low
 
   * big improvements of the API (see the dashboard and menu documentation for
     details), the old API is still supported but now deprecated;
@@ -21,7 +21,7 @@ python-django-admin-tools (0.4.0) stable; urgency=low
 
  -- Alexander Tsvetkov <sickuenser@eastwood-lab.ru>  Sat, 09 Jun 2012 16:07:20 +0400
 
-python-django-admin-tools (0.3.0) stable; urgency=low
+python-django-admin-tools (0.3.0) unstable; urgency=low
 
   * added tests infrastructure, code coverage is around 70%;
   * import paths and class names are changed. Old class names and paths are

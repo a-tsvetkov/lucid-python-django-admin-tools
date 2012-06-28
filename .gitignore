@@ -17,3 +17,6 @@ build/*
 
 # Localisation
 *.mo
+
+.project
+.pydevproject
