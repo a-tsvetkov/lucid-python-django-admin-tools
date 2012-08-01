@@ -1,3 +1,9 @@
+python-django-admin-tools (0.4.2-hh1) unstable; urgency=low
+
+  * Update some deprecated code for django-1.4 compatibility #EWD-151 
+
+ -- Anton Volozhanin <zzzombat@gmail.com>  Wed, 01 Aug 2012 12:34:26 +0400
+
 python-django-admin-tools (0.4.1) unstable; urgency=low
 
   * Static files and django 1.3 support
